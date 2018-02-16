@@ -7,3 +7,12 @@ cars.unshift('Jeep');
 console.log(cars);
 cars.shift();
 console.log(cars);
+
+
+var car = {};
+car.model = 'F500';
+car['mode'] = 'stick shift';
+car = {year : "1969"};
+console.log(car);
+car.year = "1972";
+console.log(car);
